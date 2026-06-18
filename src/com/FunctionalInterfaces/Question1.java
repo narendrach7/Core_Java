@@ -59,7 +59,7 @@ public class Question1{
      };
 
      
-     char sampleChar = 'A'; // ASCII value of 'A' is 65
+     char sampleChar = 'A'; 
      charChecker.checkChar(sampleChar);
  }
 }
