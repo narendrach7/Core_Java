@@ -17,6 +17,8 @@ public class Maining {
 		Boolean b1=true;
 //		Boolean b2=True;
 		
+		int a=Integer.MIN_VALUE;
+		
 	}
 
 }
