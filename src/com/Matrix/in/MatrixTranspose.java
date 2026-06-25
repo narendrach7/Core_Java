@@ -40,6 +40,7 @@ public class MatrixTranspose {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }
