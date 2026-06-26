@@ -1,7 +1,5 @@
 package com.Jaggedarray.in;
 
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class Jagged_Array {
 
@@ -102,24 +100,24 @@ public class Jagged_Array {
 //		System.out.println("no of elements -> "+maxElements);
 		
 		
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the array Size: ");
-		int row=sc.nextInt();
-		int a[][]= new int[row][];
-		for(int i=0;i<row;i++) {
-			System.out.println("Enter the columns for the row: "+(i+1)+" :");
-			a[i]=new int[sc.nextInt()];
-			for(int j=0;j<a[i].length;j++) {
-				System.out.println("Enter the element for "+i+" "+j+" index");
-				a[i][j]=sc.nextInt();
-			}
-		}
-		
-		for(int i=0;i<a.length;i++) {
-			for(int j=0;j<a[i].length;j++) {
-				System.out.println("class "+ (i+1) +" Scored markes "+a[i][j]);
-			}
-		}
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter the array Size: ");
+//		int row=sc.nextInt();
+//		int a[][]= new int[row][];
+//		for(int i=0;i<row;i++) {
+//			System.out.println("Enter the columns for the row: "+(i+1)+" :");
+//			a[i]=new int[sc.nextInt()];
+//			for(int j=0;j<a[i].length;j++) {
+//				System.out.println("Enter the element for "+i+" "+j+" index");
+//				a[i][j]=sc.nextInt();
+//			}
+//		}
+//		
+//		for(int i=0;i<a.length;i++) {
+//			for(int j=0;j<a[i].length;j++) {
+//				System.out.println("class "+ (i+1) +" Scored markes "+a[i][j]);
+//			}
+//		}
 		
 	}
 
